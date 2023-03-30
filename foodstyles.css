@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: pink;
+}
+
+ul {
+  list-style: none;
+}
+
+.list{
+  width: 169px;
+  max-height: 80px;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden;
+}
+
+.list-items{
+  padding: 10px 5px;
+}
+
+.list-items:hover{
+  background-color: grey;
+}
